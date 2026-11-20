@@ -1,7 +1,7 @@
 /***
 Iconic Firefox (https://gist.github.com/emvaized/a379d61ed8970e5711ca7278a39c1895/) 
 Author (c) 2026 emvaized
-Revision: 116
+Revision: 117
 Originally based on https://gist.github.com/qaz69wsx/83a90423163b65a8344b2e60fc356a58 (no longer available)
 For better compatibility with dark mode, enable `svg.context-properties.content.enabled` in `about:config` 
 ***/
@@ -225,7 +225,8 @@ toolbarbutton.restoreallitem{
 /* Context menus */
 /* --- */
 #menu_newNavigatorTab,
-menuitem[id$="openANewTab"]{
+menuitem[id$="openANewTab"],
+menuitem[data-l10n-id="user-context-new-tab2"]{
 	background-image:url("chrome://browser/skin/new-tab.svg");
 }
 #menu_newNavigator,
@@ -599,7 +600,8 @@ menu#frame{
 #spell-add-dictionaries,
 #context_moveTabToGroupNewGroup,
 [data-l10n-id="places-add-bookmark"],
-[data-l10n-id="user-context-add-container"]{
+[data-l10n-id="user-context-add-container"],
+[data-l10n-id="user-context-add-container2"]{
 	background-image:url("chrome://global/skin/icons/plus.svg");
 }
 toolbarbutton[data-l10n-id*="-manage-"],
@@ -699,6 +701,9 @@ menu.share-tab-url-item{
 }
 .share-qrcode-item{
 	background-image:url("chrome://browser/content/sharing/qr-code.svg");
+}
+#context_reverseSplitView{
+	background-image:url("chrome://global/skin/icons/swap-horizontal-20.svg");
 }
 
 /* Checkbox items styles */
