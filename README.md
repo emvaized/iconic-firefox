@@ -1,7 +1,7 @@
 # Iconic Firefox 🦊 
 [![](https://shields.io/badge/Ko--fi-Support_project-ff5f5f?logo=Ko-Fi&style=for-the-badgeKo-fi)](https://ko-fi.com/emvaized)
 
-This CSS snippet adds back icons for most context and popup menu entries in Firefox. 
+This CSS snippet adds back icons for most context and popup menu entries in Firefox. Originally published as [Gist](https://gist.github.com/emvaized/a379d61ed8970e5711ca7278a39c1895).
 
 ## Features ##
 - Adds icon to almost every entry in context menus and toolbar popups
