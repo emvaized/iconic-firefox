@@ -10,7 +10,7 @@ This CSS snippet adds back icons for most context and popup menu entries in Fire
 - Icons are slightly dimmed relative to the text (75% opacity). Can be modified by `--uc-popup-menu-icon-color` variable
 - Shows favicon of selected search engine for the "Search selected text in ..." context menu entry 
 
-![ff-context-menu-icons](./banner.png) 
+![ff-context-menu-icons](./assets/banner.png) 
 
 ## Installation
 Just add the code to your `userChrome.css` file, or import it as a separate file with `@import url(iconic_firefox.css );`. 
