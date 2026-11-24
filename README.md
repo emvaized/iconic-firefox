@@ -13,7 +13,7 @@ This CSS snippet adds back icons for most context and popup menu entries in Fire
 ![ff-context-menu-icons](./assets/banner.png) 
 
 ## Installation
-Just add the code to your `userChrome.css` file, or import it as a separate file with `@import url(iconic_firefox.css );`. 
+Just add the code to your `userChrome.css` file, or import it as a separate file with `@import url(iconic_firefox.css);`. 
 If you need help setting up the userChrome file, refer to the [guide](https://www.userchrome.org/). 
 
 ## Custom icons
