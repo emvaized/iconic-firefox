@@ -184,7 +184,8 @@ toolbarbutton.restoreallitem{
 	list-style-image:url("chrome://global/skin/icons/lightbulb.svg");
 }
 #appMenu_troubleShooting{
-	list-style-image:url("chrome://devtools/skin/images/browsers/firefox.svg");
+	/* list-style-image:url("chrome://devtools/skin/images/browsers/firefox.svg"); */
+	list-style-image:url("chrome://devtools/skin/images/debugging-workers.svg");
 }
 #appMenu_helpSafeMode{
 	list-style-image:url("chrome://global/skin/icons/security.svg");
