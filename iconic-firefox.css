@@ -405,11 +405,18 @@ menuitem[data-l10n-id$="-sync-now"]{
 #aboutName{
 	background-image:url("chrome://devtools/skin/images/browsers/firefox.svg");
 }
+#context-reload,
 #context_reloadTab,
 #context_reloadSelectedTabs,
 #context-reloadframe,
 #toolbar-context-reloadSelectedTab{
 	background-image:url("chrome://global/skin/icons/reload.svg");
+}
+#context-back{
+	background-image:url("chrome://browser/skin/back.svg");
+}
+#context-forward{
+	background-image:url("chrome://browser/skin/forward.svg");
 }
 menuitem[id^="context_toggleMute"]:not([soundplaying], [muted]),
 menuitem[id^="context_toggleMute"][soundplaying]:not([muted]),
