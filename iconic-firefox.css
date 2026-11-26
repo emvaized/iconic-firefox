@@ -217,6 +217,9 @@ toolbarbutton.restoreallitem{
 #appMenu_help_reportBrokenSite{
 	list-style-image:url("chrome://global/skin/icons/info.svg");
 }
+#appMenu-tab-groups-button{
+	list-style:url("chrome://browser/skin/tabbrowser/tab-groups.svg");
+}
 #BMB_bookmarksPopup menuitem:not(.menuitem-iconic),
 #PlacesToolbar .openintabs-menuitem{
 	padding-inline-start:32px !important;
